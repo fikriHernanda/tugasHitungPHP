@@ -36,7 +36,7 @@ if (isset($_GET['kirim'])) {
         <input type="submit" name="kirim" value="Hitung"> <br> <br>
         <label for="volume">Volume : </label><br>
         <input type="text" name="volume" value="<?php echo $volume;?>" id="volume"> <br>
-        <label for="volume">Luas Permukaan : </label> <br>
+        <label for="Luas">Luas Permukaan : </label> <br>
         <input type="text" name="luas" value="<?php echo $luasPermukaan ?>" id="luas"> <br>
     </form>
 </body>
